@@ -7,48 +7,62 @@
 </head>
 <body>
 
+    <h1>Job Application Form</h1>
+
     <form method="post">
 
+        <!-- Name -->
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" required>
         <br><br>
 
+        <!-- Email -->
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" required>
         <br><br>
 
+        <!-- Gender -->
         <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="male" required>
+        <input type="radio" id="male" name="gender" value="Male" required>
         <label for="male">Male</label>
 
-        <input type="radio" id="female" name="gender" value="female">
+        <input type="radio" id="female" name="gender" value="Female">
         <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
         <br><br>
 
+        <!-- Laptop Brands -->
         <label for="laptop">Laptop Brands:</label>
-        <select id="laptop" name="laptop">
-            <option value="apple">Apple</option>
-            <option value="asus">Asus</option>
-            <option value="hp">HP</option>
+        <select id="laptop">
+            <option value="Apple">Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="HP">HP</option>
         </select>
         <br><br>
 
+        <!-- Age -->
         <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required>
+        <input type="number" id="age" required>
         <br><br>
 
+        <!-- Date of Birth -->
         <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob" required>
+        <input type="date" id="dob" required>
         <br><br>
 
+        <!-- Password -->
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" id="password" required>
         <br><br>
 
+        <!-- Portfolio URL -->
         <label for="portfolio">Portfolio URL:</label>
-        <input type="url" id="portfolio" name="portfolio">
+        <input type="url" id="portfolio">
         <br><br>
 
+        <!-- Submit -->
         <button type="submit">Submit</button>
 
     </form>
